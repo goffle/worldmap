@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Basic example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Cards styles-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<style>
+		html,
+		body {
+			height: 100%;
+			background-color: #ffffff;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Maybe to include in library directly-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+	<div id="worldmap" style="position: absolute; left:0px; top:0px"></div>
+
+	<script src="../worldmap.js"></script>
+	<script>
+		var map = new worldmap();
+		map.addElementAtPosition($('<div class=poi id="1"><img src=./ressources/cathedral-of-saint-basil.png style="width: 200px;"></div>')[0], 55.679850, 37.580286);
+		map.addElementAtPosition($('<div class=poi id="2"><img src=./ressources/christ-the-redeemer.png style="width: 200px;"></div>')[0], -22.951995, -43.211131);
+		map.addElementAtPosition($('<div class=poi id="3"><img src=./ressources/eiffel-tower.png style="width: 200px;"></div>')[0], 48.860419, 2.294340);
+		map.addElementAtPosition($('<div class=poi id="4"><img src=./ressources/petronas-towers.png style="width: 200px;"></div>')[0], 3.157964, 101.711611);
+		map.addElementAtPosition($('<div class=poi id="5"><img src=./ressources/statue-of-liberty.png style="width: 200px;"></div>')[0], 40.689746, -74.045305);
+		map.addElementAtPosition($('<div class=poi id="6"><img src=./ressources/sydney-opera-house.png style="width: 200px;"></div>')[0], -33.856847, 151.215522);
+
+
+		setTimeout(function () {
+			[].forEach.call($('.poi'), function (v, i, a) {
+				v.onclick = function () { map.centerOnElement(this.id) };
+			});
+		}, 1000);
+	</script>
+</body>
+
+</html>

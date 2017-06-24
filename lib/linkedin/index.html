@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Linkedin Offices Locations</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+
+	<link rel="stylesheet" href="style.css">
+
+
+
+	<!-- Cards styles-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+
+	<!-- Maybe to include in library directly-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+	<script src="./card.js"></script>
+	<div id="worldmap" style="position: absolute; left:0px; top:0px"></div>
+
+
+	<script src="../worldmap.js"></script>
+	<script>
+		var map = new worldmap();
+		var selectedCard = null;
+		var mapCard = new Map();
+
+		$.getJSON("./ressources/data.json", function (json) {
+			json.forEach(function (location) {
+				var card = new Card(location.title + "_card", location.title, location.description, location.image, location.icon);
+				mapCard.set(location.title + "_card", card);
+				map.addElementAtPosition(card.HTMLElement, location.latitude, location.longitude);
+			})
+		});
+	</script>
+</body>
+
+</html>

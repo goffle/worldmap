@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Sunnyvale",
+        "image": "ressources/sunnyvale-small.jpg",
+        "icon": "ressources/icone.png",
+        "description": "Welcome to the heart of the Silicon Valley. Our Sunnyvale, CA location proudly bring together members from all over the Bay area. Both locations are home to many business units including our Executive Staff, Engineering, Finance, Sales, Product and more. The offices are equipped with a variety of perks including game rooms, state-of-the-art gym facilities and full-staff dining facilities. Our offices in the Silicon Valley merge a balance of productivity and collaboration that only LinkedIn can showcase.",
+        "latitude": 37.379354,
+        "longitude": -122.030990
+    },
+    {
+        "title": "San Francisco",
+        "image": "ressources/sf-small.jpg",
+        "icon": "ressources/icone.png",
+        "description": "LinkedIn’s San Francisco offices highlight the culture and spirit of the city. Our two office locations occupy desireable real estate in the heart of the of the Financial District.  One Montgomery Tower is home to much of our Sales Organization and encourages partnerships via an open, creative layout to encourage effective partnerships. At 222 2nd Street, we are focused on our technology and Engineering fields which continue to raise the bar of creating economic opportunity for every member of the global workforce. In addition, 222 is the center of LinkedIn’s media business including the Pulse mobile app, SlideShare and publishing platform teams.",
+        "latitude": 37.743230,
+        "longitude": -122.443102
+    },
+    {
+        "title": "Chicago",
+        "image": "ressources/chicago-small.jpg",
+        "icon": "ressources/icone.png",
+        "description": "Located in the West Loop, the Chicago office is at a convenient crossroads of several main public transport lines. Keeping in line with LinkedIn’s theme of unique design elements, our Chicago location tied for 1st place in Crain’s 2014 Chicago’s Coolest Offices contest. The new facilities are decked out with comfortable communal areas, a yoga studio, ping pong rooms and reflect a casual yet innovative vibe. Amongst walls lined with murals by local artists, sits LinkedIn’s Global Sales Organization.",
+        "latitude": 41.867661,
+        "longitude": -87.648417
+    },
+    {
+        "title": "New York",
+        "image": "ressources/ny-small.jpg",
+        "icon": "ressources/icone.png",
+        "description": "Located in the iconic Empire State Building, our New York office reflects the pace and vibe of the city that never sleeps. Mainly a Sales and Marketing office (with a growing Engineering presence), it has a vibrant feel with a nod to NYC pop culture and unique collaborate spaces, including a band room and speakeasy. Similar to other offices, LinkedIn humor is alive and well with scooter parking, foosball tables and a gaming area.",
+        "latitude": 40.701147,
+        "longitude": -73.917614
+    },
+    {
+        "title": "Dublin",
+        "image": "ressources/dublin-small.jpg",
+        "icon": "ressources/icone.png",
+        "description": "Acting as our EMEA headquarters, our office in Dublin is the home to over 800 employees. Considered the Silicon Valley of Europe, the Dublin office plays a central role in expanding LinkedIn’s presence around the world. With a workforce of 41% non-Irish employees representing the ability to speak in 25 different languages, the office is as diverse and dynamic as our LinkedIn member base.",
+        "latitude": 53.334900,
+        "longitude": -6.264251
+    },
+    {
+        "title": "Bangalore",
+        "image": "ressources/bangalore-small.jpg",
+        "icon": "ressources/icone.png",
+        "description": "Bangalore is the home to LinkedIn’s primary Engineering workforce in India and its largest Engineering team outside of our Mountain View headquarters. The office is reflective of local cultures and it largely themed to reflect India in its holistic completeness. Imagery of Indian festivals, languages, spices, and musical instruments decorate the office, creating a space that is balanced in beauty and functionality.",
+        "latitude": 12.931190,
+        "longitude": 77.565095
+    },
+    {
+        "title": "Singapore",
+        "image": "ressources/singapore-small.jpg",
+        "icon": "ressources/icone.png",
+        "description": "LinkedIn’s Asia Pacific headquarters was established in Singapore in 2011 and serves as a gateway for regional expansion. It supports LinkedIn’s operations in Australia, Hong Kong, India and Japan. The Singapore office is located in the prime Marina Bay Financial District. Home to many multinational companies (many of which are LinkedIn customers), Singapore is an amazing location to do business.",
+        "latitude": 1.357287,
+        "longitude": 103.818169
+    }
+] 
